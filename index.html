@@ -188,6 +188,7 @@ types.forEach(type => {
     textfont: { size: 8.5, color: "#999" },
     hovertext: htexts,
     hoverinfo: "text",
+    cliponaxis: false,
     marker: {
       symbol: typeShapes[type],
       size: typeSizes[type],
@@ -218,7 +219,7 @@ const layout = {
   paper_bgcolor: "#0f1117",
   plot_bgcolor: "#14161e",
   font: { color: "#ccc" },
-  margin: { t: 50, b: 30, l: 50, r: 50 },
+  margin: { t: 60, b: 40, l: 70, r: 70 },
   legend: { font: { size: 13, color: "#ccc" }, bgcolor: "rgba(0,0,0,0)" },
 };
 
